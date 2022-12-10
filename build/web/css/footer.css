@@ -1,0 +1,87 @@
+/*Font logo RATIO*/ 
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+/*************************************/
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+.footer{
+    width: 100%;
+    background-color: #002F35;
+    display: inline-flex;
+    height: 320px;
+}
+.footer .mainFooter{
+    width: 85%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+    
+}
+
+
+
+
+/************************************************/
+.divLogoFooter{
+    display: inline-flex;
+    align-items: center;
+}
+.divLogoFooter h2{
+    font-family: 'Iceberg', cursive;
+    color:white;
+    font-size: 30px;
+    font-weight:100;
+}
+.divLogoFooter  img{
+    height: 57px; width: 65px;
+}
+.sectionFooterLogo .divIconsSocial a{
+    text-decoration: none;
+}
+/************************************************/
+
+
+/************************************************/
+.divIconsSocial{
+    margin:0;
+    margin-top:20px;
+}
+.divIconsSocial .iconSocial{
+    margin-right: 25px;
+}
+/************************************************/
+
+
+.sectionFooterOptions{
+    display: inline-flex;
+}
+
+.sectionFooterOptions .divOptionList{
+    margin-right: 100px;
+    
+}
+.sectionFooterOptions .divOptionList ul{
+    font-family: 'Istok Web', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    color: black;
+    
+}
+.sectionFooterOptions .divOptionList li{
+    margin: 0px 0px 30px 0px;
+    color: white;
+    font-size: 13px;
+}
+.sectionFooterOptions .divOptionList li a{
+    text-decoration: none;
+    color: white;
+}
+.sectionFooterOptions .divOptionList h4{
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    font-weight:100;
+    font-size: 19px;
+    margin: 0px 0px 40px 0px;
+}

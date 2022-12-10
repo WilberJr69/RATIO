@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+.sectionEvento{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.divSectionEvento{
+    width: 85%;
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+.divSectionEvento *{
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+.formCompraTickets{
+    margin-left: 80px;
+}
+.tableFormCompraTickets{
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableFormCompraTickets td, .tableFormCompraTickets th {
+  border: 0px;
+  padding: 30px 55px;
+}
+.tableFormCompraTickets tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableFormCompraTickets tr:hover {background-color: #ddd;}
+
+.tableFormCompraTickets th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #002F35;
+  color: white;
+}
+
+
+.inputTipoTicket{
+    border:none;outline: none; 
+    background-color:RGBA(0,0,0,0); 
+    font-size: 15px;
+    margin:0px;
+    padding: 0px;
+}
+.inputCostoTicket{
+    border:none;outline: none; 
+    background-color:RGBA(0,0,0,0); 
+    font-size: 17px;
+    margin:0px;
+    padding: 0px;
+    display:inline-flex;
+}
+
+
+
+
+
+.divTituloEvento-Fecha{
+    margin: 30px 0px;
+}
+
+
+
+
+
+.divDetallesTicketsEvento-ficha{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+
+.divDetallesEvento{
+    display: inline-flex;
+    margin-top: 30px;
+}
+.divDetallesEvento a{
+    text-decoration: none;
+    color:#9C0000;
+}
+
+
+.divDetallesExtrasEvento{
+    margin-left: 210px;
+}
+.divDetallesExtrasEvento h3{
+    color:#9C0000;
+}
+
+
+
+
+.divButtonComprarTickets{
+    text-align: center;
+}
+.buttonComprarTickets{
+    background-color: #00501B;
+    border:none;
+    height: 45px;
+    width: 305px;
+    margin: 30px 0px;
+    color: white;
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 1.5px #9b9b9b);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
