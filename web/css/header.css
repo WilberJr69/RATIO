@@ -1,0 +1,69 @@
+/*Font logo RATIO*/ 
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+/*************************************/
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 70px;
+
+    background-color: #002F35;
+    display: inline-flex;
+}
+
+
+header nav{
+    width: 85%;
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.contendorLogoRatio{
+    display:inline-flex;
+    align-items: center;
+    height: 37px;
+}
+.contendorLogoRatio h2{
+    margin: 0px 0px 0px 10px;
+    font-family: 'Iceberg', cursive;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 25px;
+}
+.contendorLogoRatio img{
+    height: 37px;
+    width: 45px;
+    margin:0;
+}
+.contendorLogoRatio a{
+    text-decoration: none;
+}
+
+
+
+.contenedorOpciones a{
+    text-decoration: none;
+
+    font-family: 'Istok Web', sans-serif;
+    color: #ffffff;
+
+    margin: 0px 0px 0px 20px;
+
+}
+
+.contenedorOpciones a.btnRegistrCliente{
+    border: 2px #ffffff solid;
+    border-radius: 13px;
+    padding: 7px;
+}
